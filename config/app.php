@@ -165,6 +165,7 @@ return [
         /*
          * Package Service Providers...
          */
+        Elasticquent\ElasticquentServiceProvider::class,
 
         /*
          * Application Service Providers...
@@ -228,7 +229,7 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
-
+        'ES' => Elasticquent\ElasticquentElasticsearchFacade::class,
     ],
 
 ];
